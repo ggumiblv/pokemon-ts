@@ -1,0 +1,56 @@
+.pokemon-card {
+  width: 345px;
+  height: 454px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 30px;
+}
+
+.pokemon-card--black {
+  background: linear-gradient(to right top, #1f1f1f, #434343);
+}
+.pokemon-card--blue {
+  background: linear-gradient(to right top, #336ba6, #3ea5ff);
+}
+.pokemon-card--brown {
+  background: linear-gradient(to right top, #8b5e3c, #c68642);
+}
+.pokemon-card--gray {
+  background: linear-gradient(to right top, #7a7a7a, #d6d6d6);
+}
+.pokemon-card--green {
+  background: linear-gradient(to right top, #418e50, #59e49c);
+}
+.pokemon-card--pink {
+  background: linear-gradient(to right top, #f78ca0, #fbc2eb);
+}
+.pokemon-card--purple {
+  background: linear-gradient(to right top, #090816, #4a40b9);
+}
+.pokemon-card--red {
+  background: linear-gradient(to right top, #ef5050, #ff6a00);
+}
+.pokemon-card--white {
+  background: linear-gradient(to right top, #eaeaea, #ffffff);
+}
+.pokemon-card--yellow {
+  background: linear-gradient(to right top, #ffab38, #ffda27);
+}
+
+.pokemon-card__image {
+  width: 259px;
+  height: 259px;
+  object-fit: contain;
+  object-position: center;
+  margin: auto;
+}
+
+.pokemon-card__background {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  object-position: center;
+  margin: auto;
+}
